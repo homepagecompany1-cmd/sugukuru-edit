@@ -1,0 +1,70 @@
+{
+ "name": "型5 黒い札で手順を見せる",
+ "memo": "横（16:9）。手順・箇条書き・理由を話す所で左半分に黒い札（橙の番号・項目が言った時に1つずつ増える）・右に人物。左上に話題の札・字幕は白太字＋黒縁・BGMなし。",
+ "sub": {
+  "font": "Noto Sans CJK JP Black",
+  "size": 54,
+  "bottom": 70,
+  "max_chars": 20,
+  "outline": 6,
+  "shadow": 0
+ },
+ "chip": {
+  "style": "skew",
+  "size": 32,
+  "x": 50,
+  "y": 45
+ },
+ "title": {
+  "pos": "topleft",
+  "size": 68,
+  "x": 60,
+  "y": 80,
+  "t": [
+   1.5,
+   14
+  ]
+ },
+ "nameplate": {
+  "t": [
+   0,
+   6
+  ],
+  "x": 50,
+  "y": 780,
+  "tag_size": 26,
+  "name_size": 44
+ },
+ "keycap": true,
+ "keycap_y": 900,
+ "big": true,
+ "zoom": {
+  "levels": [
+   100,
+   115
+  ],
+  "interval": [
+   7,
+   11
+  ]
+ },
+ "slides": true,
+ "split_screen": false,
+ "bgm": null,
+ "sfx": true,
+ "silence": {
+  "db": -32,
+  "min": 0.3,
+  "pad": 0.06
+ },
+ "whisper_model": "large-v3-turbo",
+ "person": {
+  "name": "（名前）",
+  "tag": "（肩書き・ひとこと）"
+ },
+ "grade": {
+  "contrast": 1.06,
+  "brightness": 0.02,
+  "saturation": 1.08
+ }
+}

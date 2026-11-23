@@ -1,0 +1,79 @@
+{
+ "name": "型1 縦で答える（スマホ縦・問いに答える）",
+ "memo": "縦（9:16）で仕上げる。上に丸い顔写真（icon.png）と題・その下に黒い帯（黄色の文字＝今の話題）・下に大きな字幕（白太字＋黒縁）。無音でジャンプカット・ズーム・札が変わる時にポン音。",
+ "sub": {
+  "font": "Noto Sans CJK JP Black",
+  "size": 78,
+  "bottom": 124,
+  "max_chars": 12,
+  "outline": 8,
+  "shadow": 0,
+  "v": 3
+ },
+ "chip": {
+  "style": "skew",
+  "size": 36,
+  "x": 40,
+  "y": 180
+ },
+ "title": {
+  "pos": "topleft",
+  "size": 72,
+  "x": 50,
+  "y": 300,
+  "t": [
+   1.5,
+   10
+  ]
+ },
+ "nameplate": {
+  "t": [
+   0,
+   12
+  ],
+  "x": 40,
+  "y": 1460,
+  "tag_size": 24,
+  "name_size": 44
+ },
+ "keycap": false,
+ "keycap_y": 1700,
+ "big": false,
+ "zoom": {
+  "levels": [
+   100,
+   115
+  ],
+  "interval": [
+   8,
+   13
+  ]
+ },
+ "slides": false,
+ "split_screen": false,
+ "bgm": {
+  "file": "bgm.mp3",
+  "db": -22
+ },
+ "sfx": true,
+ "silence": {
+  "db": -32,
+  "min": 0.3,
+  "pad": 0.06
+ },
+ "whisper_model": "large-v3-turbo",
+ "person": {
+  "name": "（名前）",
+  "tag": "（肩書き・ひとこと）"
+ },
+ "grade": {
+  "contrast": 1.06,
+  "brightness": 0.02,
+  "saturation": 1.08
+ },
+ "canvas": "tate",
+ "layout": "app_tate",
+ "icon": "icon.png",
+ "head_title": "",
+ "cut_out": false
+}

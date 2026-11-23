@@ -1,0 +1,73 @@
+{
+ "name": "型3 時刻ごとに話す（1日の流れ・工程）",
+ "memo": "横（16:9）。時刻ごとに話す動画。左上に今の時刻と話題の札・結論は白い箱・無音でジャンプカット・ズーム。",
+ "sub": {
+  "font": "Noto Sans CJK JP Black",
+  "size": 52,
+  "bottom": 100,
+  "max_chars": 24,
+  "outline": 6,
+  "shadow": 0
+ },
+ "chip": {
+  "style": "skew",
+  "size": 34,
+  "x": 60,
+  "y": 60
+ },
+ "title": {
+  "pos": "topleft",
+  "size": 80,
+  "x": 80,
+  "y": 150,
+  "t": [
+   1.5,
+   10
+  ]
+ },
+ "nameplate": {
+  "t": [
+   0,
+   12
+  ],
+  "x": 50,
+  "y": 790,
+  "tag_size": 24,
+  "name_size": 44
+ },
+ "keycap": true,
+ "keycap_y": 900,
+ "big": true,
+ "zoom": {
+  "levels": [
+   100,
+   115
+  ],
+  "interval": [
+   8,
+   13
+  ]
+ },
+ "slides": false,
+ "split_screen": false,
+ "bgm": {
+  "file": "bgm.mp3",
+  "db": -22
+ },
+ "sfx": true,
+ "silence": {
+  "db": -32,
+  "min": 0.3,
+  "pad": 0.06
+ },
+ "whisper_model": "large-v3-turbo",
+ "person": {
+  "name": "（名前）",
+  "tag": "（肩書き・ひとこと）"
+ },
+ "grade": {
+  "contrast": 1.06,
+  "brightness": 0.02,
+  "saturation": 1.08
+ }
+}

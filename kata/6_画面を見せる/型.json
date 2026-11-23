@@ -1,0 +1,70 @@
+{
+ "name": "型6 画面を見せながら話す",
+ "memo": "横（16:9）。左に人物・右に画面録画（1_入れる/画面録画/ に入れる）。左上に白い札・字幕は柔らかい影・冒頭は見出しを上中央・ズームなし。",
+ "sub": {
+  "font": "Noto Sans CJK JP Black",
+  "size": 42,
+  "bottom": 45,
+  "max_chars": 28,
+  "outline": 2,
+  "outline_color": "#000000",
+  "outline_alpha": 64,
+  "shadow": 2,
+  "soft": true
+ },
+ "chip": {
+  "style": "white",
+  "size": 28,
+  "x": 40,
+  "y": 40
+ },
+ "title": {
+  "pos": "topcenter",
+  "size": 64,
+  "x": 960,
+  "y": 80,
+  "t": [
+   1,
+   14
+  ]
+ },
+ "nameplate": {
+  "t": [
+   0,
+   14
+  ],
+  "x": 40,
+  "y": 820,
+  "tag_size": 22,
+  "name_size": 40
+ },
+ "keycap": true,
+ "keycap_y": 900,
+ "big": false,
+ "zoom": null,
+ "slides": false,
+ "split_screen": true,
+ "split": {
+  "person_w": 860,
+  "sync": true,
+  "audio": "screen",
+  "always": true
+ },
+ "bgm": null,
+ "sfx": false,
+ "silence": {
+  "db": -32,
+  "min": 0.3,
+  "pad": 0.06
+ },
+ "whisper_model": "large-v3-turbo",
+ "person": {
+  "name": "（名前）",
+  "tag": "（肩書き・ひとこと）"
+ },
+ "grade": {
+  "contrast": 1.06,
+  "brightness": 0.02,
+  "saturation": 1.08
+ }
+}

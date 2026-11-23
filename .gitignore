@@ -1,0 +1,10 @@
+2_出来上がり/
+1_入れる/*
+!1_入れる/.gitkeep
+.venv/
+models/
+__pycache__/
+*.pyc
+.DS_Store
+my/*
+!my/README.md

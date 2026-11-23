@@ -1,0 +1,22 @@
+すぐ来る 動画編集キット　ライセンス
+
+■ キット（engine/・tools/・kata/・説明文）：CC BY-NC 4.0（表示・非営利）
+- 配布・共有・改変は自由です（出どころを示してください）。
+- キットそのものを売る、有料の講座・教材・サービスに組み込む、などはできません。
+- 「撮るだけ」「トルトル」「すぐ来る」はヨセカのサービス名です。自社サービスとして表示することはできません。
+- 全文：https://creativecommons.org/licenses/by-nc/4.0/deed.ja
+
+■ このキットで作った動画
+- あなたの物です。自分の事業の宣伝・SNS投稿・広告を含め、自由に使えます（ヨセカからの追加の許可）。
+- 動画に写る人・音楽・画像の権利は、使う人が確かめてください。
+
+■ 同梱している物のライセンス
+- engine/fonts/NotoSansCJKjp-*.otf：SIL Open Font License 1.1（engine/fonts/OFL.txt）
+- engine/sfx/pop.wav：ヨセカ自作（このキットと同じ扱い）
+- 文字起こしモデル（setup.sh で取得）：Whisper large-v3-turbo（OpenAI・MIT License）の CTranslate2 版（dropbox-dash/faster-whisper-large-v3-turbo・MIT）
+- faster-whisper・Pillow・numpy・scipy・ffmpeg は、それぞれのライセンスで setup.sh が取得します（同梱していません）。
+
+■ 保証
+- 結果や成果は保証しません。予告なく改訂することがあります。
+
+2026年11月版　すぐ来るたいき（ヨセカ）
