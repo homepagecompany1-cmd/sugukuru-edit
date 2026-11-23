@@ -8,3 +8,5 @@ __pycache__/
 .DS_Store
 my/*
 !my/README.md
+setup.log
+edit.log

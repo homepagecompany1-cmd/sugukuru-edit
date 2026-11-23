@@ -63,8 +63,8 @@
  },
  "whisper_model": "large-v3-turbo",
  "person": {
-  "name": "（名前）",
-  "tag": "（肩書き・ひとこと）"
+  "name": "たいき",
+  "tag": "すぐ来るたいき"
  },
  "grade": {
   "contrast": 1.06,
@@ -74,6 +74,6 @@
  "canvas": "tate",
  "layout": "app_tate",
  "icon": "icon.png",
- "head_title": "",
+ "head_title": "人前が苦手でも毎日撮る",
  "cut_out": false
 }
